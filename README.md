@@ -25,6 +25,7 @@ This project uses deep learning models to verify documents such as driving licen
 
 ### TABLE OF CONTENTS
 
+```bash
 document_verification/
 │
 ├── config.json # Configuration for document types and criteria
@@ -45,3 +46,4 @@ document_verification/
 │
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
+```
