@@ -1,0 +1,17 @@
+{
+	"document_types": ["driving_license", "passport", "resident_permit"],
+	"verification_criteria": {
+		"driving_license": {
+			"fields": ["name", "date_of_birth", "license_number"],
+			"required_features": ["hologram", "state_logo"]
+		},
+		"passport": {
+			"fields": ["name", "date_of_birth", "passport_number", "mrz"],
+			"required_features": ["hologram", "security_stamp"]
+		},
+		"resident_permit": {
+			"fields": ["name", "permit_number"],
+			"required_features": ["hologram", "security_stamp"]
+		}
+	}
+}
